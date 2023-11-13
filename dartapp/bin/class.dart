@@ -14,7 +14,8 @@ void main() {
 
 //////////////////////////////////
 class Customer {
-  String firstName, lastName = "";
+  //String firstName, lastName = "";
+  late String firstName, lastName;
   Customer.withInfo(this.firstName, this.lastName);
 }
 
