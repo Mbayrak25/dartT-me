@@ -1,8 +1,31 @@
+import 'package:test/expect.dart';
+
 void main() {}
-void selamVer() {
-  print("Selam");
+
+class PersonelManager {
+  void add() {
+    print("Added!");
+  }
+
+  void update() {
+    print("Updated!");
+  }
+
+  void delete() {
+    print("Deleted!");
+  }
 }
 
-void selamVer2(String userName) {
-  print("Selam $userName");
+class CustomerManager {
+  void add() {
+    print("Added!");
+  }
+
+  void update() {
+    print("Updated!");
+  }
+
+  void delete() {
+    print("Deleted!");
+  }
 }
